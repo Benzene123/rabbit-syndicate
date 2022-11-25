@@ -1,0 +1,194 @@
+body {
+    background-color: black;
+    color: white;
+    
+}
+.nav-link {
+    margin: 0px 8px;
+    font-size: 18px;
+    font-weight: 500;
+     
+}.navbar-brand {
+    font-size: 27px;
+    font-weight: bold;
+}
+.navbar-nav {
+    margin: 0px auto;
+}
+.navbar {
+    padding: 12px 10px 10px;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+}
+#navigation i {
+    color: #fff;
+    margin: 0px 15px;
+}
+
+#ONE {
+    padding: 100px 50px 0px;
+    background-image: url("images/mystical-g9b44db405_1920.jpg");
+    height: 100vh;
+    
+}
+#ONE h1{
+    font-size: 80px;
+    width: 50%;
+    transform: translateY(50%);
+}
+.heading {
+    text-align: center;
+    font-size: 50px;
+}
+
+#TWO {
+    padding: 50px;
+    background-color: rgb(1, 16, 19);
+}
+
+.two {
+   border-left: 5px solid #fff;
+   border-right: 5px solid #fff;
+   width: 70%;
+   padding: 50px;
+   margin: 50px auto 0px;
+   font-size: larger;
+}
+
+#THREE {
+    padding: 50px 0px;
+    background-image: linear-gradient(to bottom right,  rgb(75, 4, 29),rgb(31, 9, 31), rgb(43, 7, 38), rgb(148, 20, 62));
+    
+}
+#THREE img {
+    width: 25%;
+}
+
+#FOUR {
+    padding: 50px 25px;
+    background-image: linear-gradient(to bottom right, #18212c, #485563);
+}
+
+.four {
+    padding: 20px 15px 10px;
+    font-size: 20px;
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    width: 70%;
+    margin: 30px auto 10px;
+    text-align: center;
+}
+
+#FIVE {
+    padding: 50px 25px;
+    background-color: rgba(4, 57, 82, 0.363);
+}
+
+#FIVE img {
+    width: 30%;
+    margin: 0px 15px;
+}
+#SIX {
+    padding: 30px 50px 20px;
+   background-color: rgba(2, 54, 70, 0.555);
+}
+
+.nfts {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.six {
+    width: 30%;
+    text-align: center;
+    border-left: 5px solid #fff;
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+    margin: 25px auto 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar-collapse {
+        background-color: rgba(4, 57, 82, 0.363);
+        height: 100vh;
+        border-radius: 10px;
+        text-align: center;
+        padding: 50px 0px;
+    } 
+    .d-flex {
+        justify-content: center;
+    }
+    .nav-item {
+        padding: 8px 0px;
+    }
+    .heading {
+        text-align: center;
+        font-size: 35px;
+    }
+    #ONE {
+        padding: 100px 15px 0px;
+    }
+    #ONE h1{
+        font-size: 50px;
+        width: 80%;
+        transform: translateY(50%);
+    }
+    #TWO {
+        padding: 50px 5px;
+    }
+    .two {
+        border-left: 3px solid #fff;
+        border-right: 3px solid #fff;
+        width: 90%;
+        padding: 20px;
+        margin: 50px auto 0px;
+        font-size: 18px;
+     }
+     #THREE img {
+        width: 85%;
+        margin: 10px auto;
+        border-radius: 12px;
+        
+    }
+    .nfts {
+        display: block;
+        text-align: center;
+    }
+    #FOUR  {
+        padding: 50px 15px;
+    }
+    .four {
+        padding: 20px 15px 10px;
+        font-size: 18px;
+        border-top: 3px solid #fff;
+        border-bottom: 3px solid #fff;
+        width: 90%;
+        margin: 30px auto 10px;
+    }
+
+    #FIVE {
+        padding: 50px 15px;
+    }
+    
+    #FIVE img {
+        width: 85%;
+        margin: 15px 0px;
+        border-radius: 12px;
+    }
+    #SIX {
+        padding: 30px 25px 20px;
+    }
+    .six {
+        width: 90%;
+        text-align: left;
+        border-left: 5px solid #fff;
+        border-radius: 12px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #04517493;
+    }
+    
+}
